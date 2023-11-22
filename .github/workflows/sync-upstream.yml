@@ -1,0 +1,39 @@
+name: Sync Upstream
+
+permissions: write-all
+
+on:
+  #schedule:
+    #- cron: '0 0 * * 1'  # scheduled for 00:00 every Monday
+  workflow_dispatch:
+
+jobs:
+  sync-upstream-kenvyra:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: kenvyra-13.0
+          fetch-depth: 0 
+      - name: Sync Upstream
+        uses: zhangnew/sync-upstream@v1
+        with:
+          upstream: Kenvyra/android_kernel_xiaomi_sm6150
+          upstream-branch: kenvyra-13.0
+          branch: kenvyra-13.0
+
+  sync-upstream-lineage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: lineage-20
+          fetch-depth: 0 
+      - name: Sync Upstream
+        uses: zhangnew/sync-upstream@v1
+        with:
+          upstream: LineageOS/android_kernel_xiaomi_sm6150
+          upstream-branch: lineage-20
+          branch: lineage-20
