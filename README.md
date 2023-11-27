@@ -19,7 +19,7 @@
 
 ## Thanks / Credits
 - **[Kenvyra](https://github.com/Kenvyra/android_kernel_xiaomi_sm6150/)** and **[LineageOS](https://github.com/LineageOS/android_kernel_xiaomi_sm6150/)** for the kernel
-- **[tiann](https://github.com/tiann/KernelSU/)** for KernelSU
+- **[tiann](https://github.com/tiann/KernelSU/)** for KernelSU and its manager
 - **[AMWolfstein](https://github.com/AMWolfstein/action_kernelsu/)** for the build script
 - **[osm0sis](https://github.com/osm0sis/AnyKernel3/)** for the packaging
 - **[ZyCromerZ](https://github.com/ZyCromerZ/Clang/)** for the clang build
