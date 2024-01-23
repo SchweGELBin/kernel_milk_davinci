@@ -50,6 +50,6 @@ jobs:
         uses: zhangnew/sync-upstream@v1
         with:
           upstream: crdroidandroid/android_kernel_xiaomi_sm6150
-          upstream-branch: 14.0
+          upstream-branch: "14.0"
           branch: crdroid-14.0
           
