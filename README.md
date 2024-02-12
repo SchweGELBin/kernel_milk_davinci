@@ -25,3 +25,20 @@
 - **[ZyCromerZ](https://github.com/ZyCromerZ/Clang/)** for the clang build
 - **[llvm](https://github.com/llvm/llvm-project/)** for the compiler/toolchain
 - For more credits, visit their repositories
+
+## Add Branch
+```
+View branches: git branch --all
+View upstream: git remote -v
+After adding: Add to Readme credits & Add to sync-upstream workflow
+```
+```
+git clone https://github.com/[username]/kernel_milk_davinci.git
+
+git remote add upstream [link].git
+git fetch upstream
+
+git checkout -b [new_branchname] upstream/[up_branchname]
+
+git push -u origin [new_branchname]
+```
