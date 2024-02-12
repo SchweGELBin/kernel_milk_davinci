@@ -37,21 +37,6 @@ jobs:
           upstream: LineageOS/android_kernel_xiaomi_sm6150
           upstream-branch: lineage-20
           branch: lineage-20
-
-  sync-upstream-crdroid:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          ref: crdroid-14.0
-          fetch-depth: 0
-      - name: Sync Upstream
-        uses: zhangnew/sync-upstream@v1
-        with:
-          upstream: crdroidandroid/android_kernel_xiaomi_sm6150
-          upstream-branch: "14.0"
-          branch: crdroid-14.0
           
   sync-upstream-pixelos:
     runs-on: ubuntu-latest
