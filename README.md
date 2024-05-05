@@ -30,6 +30,8 @@
 ```
 View branches: git branch --all
 View upstream: git remote -v
+In case of error "fatal: the remote end hung up unexpectedly":
+    git config http.postBuffer 524288000
 After adding: Add to Readme credits & Add to sync-upstream workflow
 ```
 ```
