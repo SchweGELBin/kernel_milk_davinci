@@ -18,7 +18,7 @@
 - Run Action "CI Build"
 
 ## Thanks / Credits
-- **[Kenvyra](https://github.com/Kenvyra/android_kernel_xiaomi_sm6150/)**, **[LineageOS](https://github.com/LineageOS/android_kernel_xiaomi_sm6150/)**, **[PixelOS-Devices](https://github.com/PixelOS-Devices/kernel_xiaomi_sm6150/)** and **[MiCode](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/davinci-p-oss)** for the kernel
+- **[Kenvyra](https://github.com/Kenvyra/android_kernel_xiaomi_sm6150/)**, **[LineageOS](https://github.com/LineageOS/android_kernel_xiaomi_sm6150/)**, **[MiCode](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/davinci-p-oss)**, **[PixelOS-Devices](https://github.com/PixelOS-Devices/kernel_xiaomi_sm6150/)** and **[vantoman](https://github.com/vantoman/kernel_xiaomi_sm6150)** for the kernel
 - **[tiann](https://github.com/tiann/KernelSU/)** for KernelSU and its manager
 - **[AMWolfstein](https://github.com/AMWolfstein/action_kernelsu/)** for the build script
 - **[osm0sis](https://github.com/osm0sis/AnyKernel3/)** for the packaging
