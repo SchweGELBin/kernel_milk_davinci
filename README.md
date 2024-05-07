@@ -8,9 +8,8 @@
 
 ## Install
 
-- Download **[latest release](https://github.com/SchweGELBin/action_kernel_milk_davinci/releases/latest/download/MilkKernel.zip)**
+- Download **[latest release](https://github.com/SchweGELBin/action_kernel_milk_davinci/releases/latest/)**
 - Flash via Recovery
-- Optional: Download **[latest release](https://github.com/SchweGELBin/action_kernel_milk_davinci/releases/latest/download/Manager.apk)** of KernelSU Manager
 
 ## Build
 
