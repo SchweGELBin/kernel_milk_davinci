@@ -1,5 +1,7 @@
 # MilkKernel
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/SchweGELBin/action_kernel_milk_davinci/total)
+
 **Dynamic Kernel**
 
 **For davinci | Mi 9T / Redmi K20**
